@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:17.05.0-dind
 
 RUN apk add --no-cache tzdata \
  && cp /usr/share/zoneinfo/Hongkong /etc/localtime \
